@@ -40,7 +40,7 @@ public class Demo {
         ss3.setMerk("Fila");
         ss3.setWarna("Tosca");
         ss3.ukuran(38);
-        ss3.jumlahRoda(6);
+        ss3.jumlahRoda(8);
         ss3.cetakStatus();
         System.out.println("-------------------------");
         
