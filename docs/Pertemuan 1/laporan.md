@@ -8,6 +8,7 @@ Berdasarkan hasil pengamatan benda di sekitar saya, saya menemukan beberapa bend
     [Kode Program Sepatu](../../src/TugasPraktikum/src/Praktikum/sepatu.java)
 
 2. Sepatu Roda
+
     ![Sepatu Roda](img/sepaturoda.jpeg)
 
     [Kode Program Sepatu Roda](../../src/TugasPraktikum/src/Praktikum/SepatuRoda.java)
