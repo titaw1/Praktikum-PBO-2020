@@ -12,7 +12,7 @@ Penjelasan:
 
     **Jawab :**
 
-    ![Class Diagram](img/diagram.jpg)
+    ![Class Diagram](img/diagram1.jpg)
 
 2. Buatlah program dari class diagram yang sudah anda buat di no 1!
 
