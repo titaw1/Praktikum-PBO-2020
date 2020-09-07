@@ -13,8 +13,8 @@ public class Peminjaman {
     public int id;
     public String namaMember;
     public String namaGame;
-    public int harga;
     public int lamaWaktu;
+    public int harga;
     
     public void setId(int i){
         id = i;
