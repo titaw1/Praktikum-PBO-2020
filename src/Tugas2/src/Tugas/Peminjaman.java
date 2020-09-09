@@ -25,10 +25,10 @@ public class Peminjaman {
     public void setNamaGame(String game){
         namaGame = game;
     }
-    public int hitungHarga(int lw, int hrg){
-        lamaWaktu = lw;
+    public int hitungHarga(int lama, int hrg){
+        lamaWaktu = lama;
         harga = hrg;
-        harga = lw*hrg;
+        harga = lama*hrg;
         return harga;
     }
     public void cetakData(){
