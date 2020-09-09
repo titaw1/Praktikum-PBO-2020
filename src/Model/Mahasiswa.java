@@ -4,7 +4,7 @@ import java.util.*;
 /**
  * 
  */
-public class Mahasiswa extends NilaiMahasiswa {
+public class Mahasiswa {
 
     /**
      * Default constructor
