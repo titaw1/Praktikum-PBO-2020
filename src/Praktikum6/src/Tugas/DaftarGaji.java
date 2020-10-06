@@ -11,18 +11,18 @@ package Tugas;
  */
 public class DaftarGaji {
     public Pegawai[] listPegawai;
-    public int gaji;
+    public int jumlahPegawaiSekarang=0;
     
-    private DaftarGaji(int gaji){
-        this.gaji = gaji;
+    public DaftarGaji(int jumlahPegawai){
+        listPegawai = new Pegawai[jumlahPegawai];
     }
-    private int getGaji(){
-        return gaji;
+    public void addPegawai(Pegawai pegawai){
+        listPegawai[jumlahPegawaiSekarang] = pegawai;
+        jumlahPegawaiSekarang++;
     }
-    private void addPegawai(Pegawai pegawai){
-        
-    }
-    private void printSemuaGaji(){
-        
+    public void printSemuaGaji(){
+        for(int i=0;i<jumlahPegawaiSekarang;i++){
+            System.out.println(listPegawai[i].getNama()+" mendapatkan gaji "+listPegawai[i].getGaji());
+        }
     }
 }

@@ -13,14 +13,25 @@ public class Dosen extends Pegawai{
     public int jumlahSKS;
     public int TARIF_SKS;
     
-    public Dosen(String)
-    private void setSKS(int SKS){
-        
+    public Dosen(){
+    
     }
-    public void setTARIF_SKS(){
-        
+    public Dosen(String nip, String nama, String alamat){
+        super(nip, nama, alamat);
+    }
+    public void setJumlahSKS(int jumlahSKS){
+        this.jumlahSKS = jumlahSKS;
+    }
+    public int getJumlahSKS(){
+        return jumlahSKS;
+    }
+    public void setTARIF_SKS(int TARIF_SKS){
+        this.TARIF_SKS=TARIF_SKS;
+    }
+    public int getTARIF_SKS(){
+        return TARIF_SKS;
     }
     public int getGaji(){
-        return this.jumlahSKS*this.TARIF_SKS;
+        return (this.jumlahSKS*this.TARIF_SKS)+super.getGaji();
     }
 }
