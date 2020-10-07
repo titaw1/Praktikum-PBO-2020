@@ -13,7 +13,6 @@ public class Pegawai {
     public String nip;
     public String nama;
     public String alamat;
-    public DaftarGaji daftarGaji;
     
     public Pegawai(){
         
