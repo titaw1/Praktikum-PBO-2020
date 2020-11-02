@@ -1,5 +1,31 @@
 # Laporan Praktikum PBO Pertemuan 10
-![](img/dmd.jpg)
+![](img/hewan.jpg)
+
+[Kode Program Class Hewan](../../src/PBOMinggu10/src/pbominggu10/abstractclass/Hewan.java)
+
+
+![](img/kucing.jpg)
+
+
+[Kode Program Class Kucing](../../src/PBOMinggu10/src/pbominggu10/abstractclass/Kucing.java)
+
+
+![](img/ikan1.jpg)
+
+
+[Kode Program Class Ikan](../../src/PBOMinggu10/src/pbominggu10/abstractclass/Ikan.java)
+
+
+![](img/orang.jpg)
+
+
+[Kode Program Class Orang](../../src/PBOMinggu10/src/pbominggu10/abstractclass/Orang.java)
+
+
+![](img/program.jpg)
+
+
+[Kode Program Class Program](../../src/PBOMinggu10/src/pbominggu10/abstractclass/Program.java)
 
 
 ## Pertanyaan

@@ -17,10 +17,10 @@ public class Program {
         Orang ani = new Orang("Ani");
         Orang budi = new Orang("Budi");
         
-//        ani.peliharaanHewan(kucingKampung);
+        ani.peliharaanHewan(kucingKampung);
         budi.peliharaanHewan(lumbaLumba);
         
-//        ani.ajakPeliharaanJalanJalan();
+        ani.ajakPeliharaanJalanJalan();
         budi.ajakPeliharaanJalanJalan();
     }
 }
