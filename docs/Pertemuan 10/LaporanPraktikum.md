@@ -2,8 +2,6 @@
 ![](img/dmd.jpg)
 
 
-[Kode Program Class Demo](../../src/Praktikum9/src/tugas2/Demo.java)
-
 ## Pertanyaan
 Pertanyaan diskusi:
 Bolehkah apabila sebuah class yang meng-extend suatu abstract class tidak
