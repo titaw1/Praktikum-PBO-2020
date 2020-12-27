@@ -14,11 +14,11 @@ public class TestBackend {
         Kategori kat2 = new Kategori("Referensi", "Buku referensi ilmiah");
         Kategori kat3 = new Kategori("Komik", "Komik anak-anak");
 // test insert
-        //kat1.save();
-        //kat3.save();
+        kat1.save();
+        kat3.save();
 // test update
-        //kat2.setKeterangan("Koleksi buku referensi ilmiah");
-        //kat2.save();
+        kat2.setKeterangan("Koleksi buku referensi ilmiah");
+        kat2.save();
 // test delete
         //kat3.delete();
 // test select all

@@ -123,6 +123,11 @@ public class FrmBuku extends javax.swing.JFrame {
         jLabel5.setText("Penulis");
 
         txtIdBuku.setEnabled(false);
+        txtIdBuku.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtIdBukuActionPerformed(evt);
+            }
+        });
 
         cmbKategori.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
@@ -302,6 +307,10 @@ public class FrmBuku extends javax.swing.JFrame {
         txtPenerbit.setText(buku.getPenerbit());
         txtPenulis.setText(buku.getPenulis());
     }//GEN-LAST:event_tblBukuMouseClicked
+
+    private void txtIdBukuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdBukuActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtIdBukuActionPerformed
 
     /**
      * @param args the command line arguments
